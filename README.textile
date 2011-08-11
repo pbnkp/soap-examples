@@ -1,0 +1,9 @@
+h1. This a really simple and basic example of a Greeting Web Service implemented using Play! Framework features.
+
+BasicTest show request/response and enveloppes use to see exactly what's happening.
+
+
+Hope this will help Claw ;-) 
+
+
+
