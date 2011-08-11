@@ -1,8 +1,12 @@
 h1. This a really simple and basic example of a Greeting Web Service implemented using Play! Framework features.
 
-BasicTest show request/response and enveloppes use to see exactly what's happening.
+* Included, the WSDL and it is exposed as such
+* EndPoint URL can be used by SOAPUI for testing (http://localhost:9000/services/MyService.wsdl)
 
+BasicTest show request/response and enveloppes
+* Can be used to see exactly what's happening
 
+bc. IMPORTANT: The thread pool must be greater than 2 => 
 Hope this will help Claw ;-) 
 
 
