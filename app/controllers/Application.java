@@ -50,13 +50,13 @@ public class Application extends Controller {
     private static void sayHello(Document xml) {
     	String name = XPath.selectText("//sayHelloRequest/text()", xml);
     	name = String.format("Hello %s!", name);
-        render("Application//MyService_SayHelloResponse.xml", name);
+        render("Application/MyService_SayHelloResponse.xml", name);
     }
 
     private static void sayBye(Document xml) {
     	String name = XPath.selectText("//sayByeRequest/text()", xml);
     	name = String.format("Bye %s!", name);
-        render("Application//MyService_SayByeResponse.xml", name);
+        render("Application/MyService_SayByeResponse.xml", name);
     }
 
 }
